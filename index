@@ -1,0 +1,2090 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant" class="scroll-smooth">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tiffany & Dennis | 26.03.27 • Karuizawa Travel Guide</title>
+
+   
+
+    <!-- Tailwind CSS -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+   
+
+    <!-- Google Fonts: Cormorant Garamond, Pinyon Script, Noto Sans TC, Noto Serif TC -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;600&family=Pinyon+Script&display=swap" rel="stylesheet">
+
+
+    <!-- Custom Tailwind Configuration -->
+
+    <script>
+
+        tailwind.config = {
+
+            theme: {
+
+                extend: {
+
+                    colors: {
+
+                        ivory: '#FAF8F2',
+
+                        ivoryDark: '#F2EFE6',
+
+                        forest: '#1A3626',
+
+                        forestLight: '#284B37',
+
+                        sage: '#4F6D58',
+
+                        sageLight: '#E8EFE9',
+
+                        taupe: '#9C8A76',
+
+                        espresso: '#4A3728',
+
+                        bronze: '#9E8654',
+
+                        charcoal: '#2C3530'
+
+                    },
+
+                    fontFamily: {
+
+                        serif: ['"Cormorant Garamond"', '"Noto Serif TC"', 'serif'],
+
+                        script: ['"Pinyon Script"', 'cursive'],
+
+                        sans: ['"Noto Sans TC"', 'sans-serif'],
+
+                    },
+
+                    boxShadow: {
+
+                        'botanical': '0 12px 32px -10px rgba(26, 54, 38, 0.09)',
+
+                        'card': '0 4px 20px -2px rgba(26, 54, 38, 0.05)',
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    </script>
+
+
+    <style>
+
+        /* Soft cream/ivory linen paper texture */
+
+        body {
+
+            background-color: #FAF8F2;
+
+            color: #2C3530;
+
+            background-image:
+
+                linear-gradient(90deg, rgba(26, 54, 38, 0.02) 1px, transparent 1px),
+
+                linear-gradient(rgba(26, 54, 38, 0.02) 1px, transparent 1px);
+
+            background-size: 24px 24px;
+
+        }
+
+
+        .reveal {
+
+            opacity: 0;
+
+            transform: translateY(22px);
+
+            transition: all 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+
+        }
+
+
+        .reveal.active {
+
+            opacity: 1;
+
+            transform: translateY(0);
+
+        }
+
+
+        .no-scrollbar::-webkit-scrollbar {
+
+            display: none;
+
+        }
+
+        .no-scrollbar {
+
+            -ms-overflow-style: none;
+
+            scrollbar-width: none;
+
+        }
+
+    </style>
+
+</head>
+
+<body class="font-sans antialiased selection:bg-forest selection:text-ivory">
+
+
+    <!-- Toast Notification -->
+
+    <div id="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 pointer-events-none opacity-0 transition-all duration-300 transform translate-y-4">
+
+        <div class="bg-forest text-ivory px-5 py-3 rounded-full shadow-xl flex items-center gap-2.5 text-sm font-medium border border-bronze/40">
+
+            <svg class="w-4 h-4 text-bronze" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+
+            </svg>
+
+            <span id="toast-message">已複製到剪貼簿</span>
+
+        </div>
+
+    </div>
+
+
+    <!-- Floating Sticky Navigation Bar -->
+
+    <header class="sticky top-0 z-40 bg-ivory/90 backdrop-blur-md border-b border-forest/10">
+
+        <div class="max-w-5xl mx-auto px-4 sm:px-6">
+
+            <div class="flex items-center justify-between h-14 sm:h-16">
+
+                <a href="#cover" class="flex items-center gap-2 group">
+
+                    <span class="font-script text-3xl text-forest group-hover:text-sage transition-colors">T & D</span>
+
+                    <span class="hidden sm:inline-block text-xs tracking-[0.22em] uppercase text-sage font-serif border-l border-forest/20 pl-2.5">26.03.27</span>
+
+                </a>
+
+
+                <nav class="flex items-center gap-1 sm:gap-1.5 overflow-x-auto no-scrollbar py-1 max-w-[78vw] sm:max-w-none">
+
+                    <a href="#cover" class="px-3 py-1.5 rounded-full text-xs sm:text-sm font-medium text-charcoal hover:text-forest hover:bg-sageLight/70 whitespace-nowrap transition-colors">Cover</a>
+
+                    <a href="#welcome" class="px-3 py-1.5 rounded-full text-xs sm:text-sm font-medium text-charcoal hover:text-forest hover:bg-sageLight/70 whitespace-nowrap transition-colors">Welcome</a>
+
+                    <a href="#timeline" class="px-3 py-1.5 rounded-full text-xs sm:text-sm font-medium text-charcoal hover:text-forest hover:bg-sageLight/70 whitespace-nowrap transition-colors">Timeline</a>
+
+                    <a href="#transport" class="px-3 py-1.5 rounded-full text-xs sm:text-sm font-medium text-charcoal hover:text-forest hover:bg-sageLight/70 whitespace-nowrap transition-colors">Transport</a>
+
+                    <a href="#dresscode" class="px-3 py-1.5 rounded-full text-xs sm:text-sm font-medium text-charcoal hover:text-forest hover:bg-sageLight/70 whitespace-nowrap transition-colors">Dress Code</a>
+
+                    <a href="#explore" class="px-3 py-1.5 rounded-full text-xs sm:text-sm font-medium text-charcoal hover:text-forest hover:bg-sageLight/70 whitespace-nowrap transition-colors">Explore</a>
+
+                    <a href="#dining" class="px-3 py-1.5 rounded-full text-xs sm:text-sm font-medium text-charcoal hover:text-forest hover:bg-sageLight/70 whitespace-nowrap transition-colors">Dining</a>
+
+                </nav>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================================
+
+         PAGE 1: EXACT ORIGINAL SAVE THE DATE COVER IMAGE (UNALTERED)
+
+    ====================================================================== -->
+
+    <section id="cover" class="relative pt-4 pb-10 sm:pt-8 sm:pb-14 px-4">
+
+        <div class="max-w-2xl mx-auto">
+
+            <!-- Pure, Unaltered Original Cover Image Frame (Zero Overlays, Zero Cropping) -->
+
+            <div class="bg-white p-2 sm:p-3 rounded-[1.75rem] shadow-botanical border border-forest/15">
+
+                <img
+
+                    id="original-cover-img"
+
+                    src="GEM_PHOTO_1610A046-D10B-4E6B-9622-F5AE68AE04A3_L0_001_recent_photo_2B16482C-E019-44AC-B112-C521408FB192.jpg"
+
+                    alt="Save The Date 26.03.27 - Tiffany & Dennis"
+
+                    class="w-full h-auto object-contain rounded-[1.25rem] block mx-auto"
+
+                    onerror="handleCoverError(this)"
+
+                >
+
+                <!-- Fallback helper only shown if local JPG file is missing when hosted -->
+
+                <div id="cover-fallback-panel" class="hidden p-8 text-center bg-ivory rounded-[1.25rem] border border-dashed border-forest/30">
+
+                    <p class="font-serif text-lg text-forest font-semibold mb-1">請將封面照片放在與 index.html 相同的資料夾</p>
+
+                    <p class="text-xs text-sage mb-4 break-all">檔名：GEM_PHOTO_1610A046-D10B-4E6B-9622-F5AE68AE04A3_L0_001_recent_photo_2B16482C-E019-44AC-B112-C521408FB192.jpg</p>
+
+                    <label for="cover-file-input" class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-forest text-ivory text-xs font-medium cursor-pointer hover:bg-forestLight transition-colors">
+
+                        <span>或點此手動載入您的原始封面圖</span>
+
+                    </label>
+
+                    <input id="cover-file-input" type="file" accept="image/*" class="hidden" onchange="loadLocalCover(event)">
+
+                </div>
+
+            </div>
+
+
+            <!-- Discrete Scroll Cue Below the Cover Frame -->
+
+            <div class="mt-6 flex flex-col items-center justify-center gap-2 text-center">
+
+                <a href="#guide-title" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/90 hover:bg-forest hover:text-ivory text-forest text-xs sm:text-sm font-serif tracking-[0.2em] uppercase border border-forest/15 shadow-sm transition-all">
+
+                    <span>Scroll to open Travel Guide</span>
+
+                    <span>↓</span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================================
+
+         PAGE 5: ILLUSTRATED TRAVEL GUIDE TITLE CARD
+
+    ====================================================================== -->
+
+    <section id="guide-title" class="relative overflow-hidden py-8 sm:py-14 px-4 reveal">
+
+        <div class="max-w-3xl mx-auto">
+
+            <!-- Main Illustrated Travel Guide Title Card -->
+
+            <div class="bg-ivory border border-forest/15 rounded-[2.25rem] p-6 sm:p-12 text-center shadow-botanical relative overflow-hidden">
+
+               
+
+                <!-- Circular Arched Text: "THANK YOU FOR CREATING MEMORIES WITH US" -->
+
+                <div class="max-w-md mx-auto -mb-10 sm:-mb-14">
+
+                    <svg viewBox="0 0 420 130" class="w-full h-auto overflow-visible">
+
+                        <defs>
+
+                            <path id="archCurve" d="M 35,120 A 185,130 0 0,1 385,120" />
+
+                        </defs>
+
+                        <text fill="#4F6D58" font-family="'Cormorant Garamond', serif" font-size="12.5" font-weight="600" letter-spacing="3.2">
+
+                            <textPath href="#archCurve" startOffset="50%" text-anchor="middle">
+
+                                THANK YOU FOR CREATING MEMORIES WITH US
+
+                            </textPath>
+
+                        </text>
+
+                    </svg>
+
+                </div>
+
+
+                <!-- Starburst Trio SVG (Exact Page 5 Motif) -->
+
+                <div class="flex items-center justify-center gap-5 my-2 text-forest">
+
+                    <!-- Left Starburst -->
+
+                    <svg class="w-7 h-7 sm:w-8 sm:h-8" viewBox="0 0 60 60" fill="currentColor">
+
+                        <path d="M30 0 L33 22 L51 9 L38 27 L60 30 L38 33 L51 51 L33 38 L30 60 L27 38 L9 51 L22 33 L0 30 L22 27 L9 9 L27 22 Z"/>
+
+                    </svg>
+
+                    <!-- Center Large Starburst -->
+
+                    <svg class="w-12 h-12 sm:w-14 sm:h-14" viewBox="0 0 60 60" fill="currentColor">
+
+                        <path d="M30 0 L32.8 21.5 L51 9 L38.5 27.2 L60 30 L38.5 32.8 L51 51 L32.8 38.5 L30 60 L27.2 38.5 L9 51 L21.5 32.8 L0 30 L21.5 27.2 L9 9 L27.2 21.5 Z"/>
+
+                    </svg>
+
+                    <!-- Right Starburst -->
+
+                    <svg class="w-7 h-7 sm:w-8 sm:h-8" viewBox="0 0 60 60" fill="currentColor">
+
+                        <path d="M30 0 L33 22 L51 9 L38 27 L60 30 L38 33 L51 51 L33 38 L30 60 L27 38 L9 51 L22 33 L0 30 L22 27 L9 9 L27 22 Z"/>
+
+                    </svg>
+
+                </div>
+
+
+                <!-- Script Title: Travel guide -->
+
+                <h1 class="font-script text-6xl sm:text-8xl text-forest leading-tight mt-1">
+
+                    Travel guide
+
+                </h1>
+
+                <p class="font-script text-3xl sm:text-4xl text-sage -mt-2 sm:-mt-3">
+
+                    for Our Beloved Family &amp; Friends
+
+                </p>
+
+
+                <!-- Hand-Drawn Karuizawa Mountain & Pine Forest Illustration (Page 5) -->
+
+                <div class="max-w-lg mx-auto my-6">
+
+                    <svg viewBox="0 0 540 205" class="w-full h-auto text-forest" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                        <!-- Hand-drawn Sparkles & Circles -->
+
+                        <path d="M62 28 Q64 44 80 46 Q64 48 62 64 Q60 48 44 46 Q60 44 62 28 Z" stroke="#1A3626" stroke-width="1.5" stroke-linejoin="round"/>
+
+                        <circle cx="34" cy="24" r="3.2" stroke="#1A3626" stroke-width="1.4"/>
+
+                        <circle cx="64" cy="78" r="2.6" stroke="#1A3626" stroke-width="1.4"/>
+
+                        <path d="M22 52 L32 62 M32 52 L22 62" stroke="#1A3626" stroke-width="1.5" stroke-linecap="round"/>
+
+
+                        <path d="M475 24 Q477 40 493 42 Q477 44 475 60 Q473 44 457 42 Q473 40 475 24 Z" stroke="#1A3626" stroke-width="1.5" stroke-linejoin="round"/>
+
+                        <circle cx="472" cy="12" r="2.8" stroke="#1A3626" stroke-width="1.4"/>
+
+                        <circle cx="506" cy="64" r="2.8" stroke="#1A3626" stroke-width="1.4"/>
+
+                        <path d="M505 26 L515 36 M515 26 L505 36" stroke="#1A3626" stroke-width="1.5" stroke-linecap="round"/>
+
+
+                        <!-- Karuizawa Twin Mountain Range Line Art -->
+
+                        <path d="M88 152 L176 54 L224 102 L254 88 L302 152" stroke="#1A3626" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+                        <!-- Left Peak Ridge & Hatching -->
+
+                        <path d="M176 54 L182 88 L170 112 M176 54 L158 84 M165 72 L146 98 M152 88 L134 114 M224 102 L206 135 M254 88 L244 118" stroke="#1A3626" stroke-width="1.1" stroke-linecap="round"/>
+
+
+                        <path d="M262 145 L306 94 L334 108 L384 36 L445 148" stroke="#1A3626" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+                        <!-- Right Peak Ridge & Hatching -->
+
+                        <path d="M384 36 L372 78 L382 104 M384 36 L362 72 M372 58 L350 92 M360 76 L342 104 M398 66 L418 96 M406 84 L426 112" stroke="#1A3626" stroke-width="1.1" stroke-linecap="round"/>
+
+
+                        <!-- Left Pine Cluster -->
+
+                        <g stroke="#1A3626" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" fill="#1A3626" fill-opacity="0.12">
+
+                            <path d="M78 168 V115 M78 122 L70 132 M78 122 L86 132 M78 132 L68 144 M78 132 L88 144 M78 144 L66 158 M78 144 L90 158"/>
+
+                            <path d="M102 170 V106 M102 114 L92 126 M102 114 L112 126 M102 126 L90 140 M102 126 L114 140 M102 140 L88 156 M102 140 L116 156"/>
+
+                            <path d="M126 168 V118 M126 125 L118 135 M126 125 L134 135 M126 136 L116 148 M126 136 L136 148 M126 148 L114 160 M126 148 L138 160"/>
+
+                        </g>
+
+
+                        <!-- Center Pine Cluster -->
+
+                        <g stroke="#1A3626" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+
+                            <path d="M294 174 V128 M294 135 L286 144 M294 135 L302 144 M294 145 L284 156 M294 145 L304 156 M294 156 L282 168 M294 156 L306 168"/>
+
+                            <path d="M316 176 V122 M316 130 L307 140 M316 130 L325 140 M316 141 L305 153 M316 141 L327 153 M316 153 L303 166 M316 153 L329 166"/>
+
+                            <path d="M338 174 V130 M338 137 L330 146 M338 137 L346 146 M338 147 L328 158 M338 147 L348 158 M338 158 L326 169 M338 158 L350 169"/>
+
+                        </g>
+
+
+                        <!-- Right Pine Cluster -->
+
+                        <g stroke="#1A3626" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+
+                            <path d="M408 168 V115 M408 122 L400 132 M408 122 L416 132 M408 132 L398 144 M408 132 L418 144 M408 144 L396 158 M408 144 L420 158"/>
+
+                            <path d="M432 170 V108 M432 116 L422 128 M432 116 L442 128 M432 128 L420 142 M432 128 L444 142 M432 142 L418 158 M432 142 L446 158"/>
+
+                            <path d="M456 168 V118 M456 125 L448 135 M456 125 L464 135 M456 136 L446 148 M456 136 L466 148 M456 148 L444 160 M456 148 L468 160"/>
+
+                        </g>
+
+                    </svg>
+
+                </div>
+
+
+                <!-- Date & Location -->
+
+                <div class="mt-2">
+
+                    <p class="font-serif text-4xl sm:text-6xl tracking-[0.14em] text-forest font-normal">
+
+                        26 MAR 2027
+
+                    </p>
+
+                    <p class="font-script text-4xl sm:text-5xl text-sage mt-1">
+
+                        Karuizawa, Japan
+
+                    </p>
+
+                </div>
+
+
+                <!-- Bottom Pine Forest & Starburst Row (Page 5 Bottom Motif) -->
+
+                <div class="flex items-center justify-center gap-4 sm:gap-8 my-7 text-forest">
+
+                    <!-- Left Starburst -->
+
+                    <svg class="w-7 h-7 sm:w-9 sm:h-9 shrink-0" viewBox="0 0 60 60" fill="currentColor">
+
+                        <path d="M30 0 L33 22 L51 9 L38 27 L60 30 L38 33 L51 51 L33 38 L30 60 L27 38 L9 51 L22 33 L0 30 L22 27 L9 9 L27 22 Z"/>
+
+                    </svg>
+
+
+                    <!-- Silhouette Pine Forest Row -->
+
+                    <svg class="h-14 sm:h-16 w-auto text-forest" viewBox="0 0 260 75" fill="currentColor">
+
+                        <path d="M22 72 V64 H10 L18 52 H12 L20 40 H14 L22 28 H17 L24 14 L31 28 H26 L34 40 H28 L36 52 H30 L38 64 H26 V72 Z"/>
+
+                        <path d="M52 72 V65 H41 L48 54 H43 L50 43 H45 L52 32 H48 L54 20 L60 32 H56 L63 43 H58 L65 54 H60 L67 65 H56 V72 Z"/>
+
+                        <path d="M84 72 V64 H71 L80 51 H73 L82 38 H75 L84 25 H79 L86 10 L93 25 H88 L97 38 H90 L99 51 H92 L101 64 H88 V72 Z"/>
+
+                        <path d="M118 72 V63 H104 L114 49 H107 L117 35 H110 L119 21 H114 L121 6 L128 21 H123 L132 35 H125 L135 49 H128 L138 63 H124 V72 Z"/>
+
+                        <path d="M154 72 V63 H140 L150 49 H143 L153 35 H146 L155 21 H150 L157 5 L164 21 H159 L168 35 H161 L171 49 H164 L174 63 H160 V72 Z"/>
+
+                        <path d="M188 72 V64 H176 L184 52 H178 L186 40 H180 L188 28 H183 L190 14 L197 28 H192 L200 40 H194 L202 52 H196 L204 64 H192 V72 Z"/>
+
+                        <path d="M222 72 V64 H210 L218 52 H212 L220 40 H214 L222 28 H217 L224 13 L231 28 H226 L234 40 H228 L236 52 H230 L238 64 H226 V72 Z"/>
+
+                    </svg>
+
+
+                    <!-- Right Starburst -->
+
+                    <svg class="w-7 h-7 sm:w-9 sm:h-9 shrink-0" viewBox="0 0 60 60" fill="currentColor">
+
+                        <path d="M30 0 L33 22 L51 9 L38 27 L60 30 L38 33 L51 51 L33 38 L30 60 L27 38 L9 51 L22 33 L0 30 L22 27 L9 9 L27 22 Z"/>
+
+                    </svg>
+
+                </div>
+
+
+                <!-- Tagline -->
+
+                <p class="font-serif text-xs sm:text-sm tracking-[0.22em] uppercase text-forest font-semibold pt-2">
+
+                    MEET US WHERE THE CHAPEL MEETS THE FOREST.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================================
+
+         PAGE 6: WARM WELCOME
+
+    ====================================================================== -->
+
+    <section id="welcome" class="py-12 sm:py-20 px-4 reveal">
+
+        <div class="max-w-2xl mx-auto bg-white/85 backdrop-blur-sm rounded-[2rem] p-8 sm:p-12 border border-forest/15 shadow-botanical relative overflow-hidden">
+
+            <div class="text-center relative z-10">
+
+                <p class="font-serif text-xs tracking-[0.25em] uppercase text-sage font-semibold mb-3">
+
+                    YOUR PRESENCE IS THE GREATEST GIFT OF ALL.
+
+                </p>
+
+               
+
+                <h2 class="font-script text-5xl sm:text-6xl text-forest mb-6">
+
+                    Warm welcome
+
+                </h2>
+
+
+                <div class="space-y-4 text-charcoal/90 text-sm sm:text-base leading-relaxed font-normal tracking-wide">
+
+                    <p>
+
+                        謝謝你特意到來參加，陪伴我們迎接人生最重要的時刻。<br class="hidden sm:inline">
+
+                        這不僅是我們的婚禮，更是我們與重視的你，一起度過的一個難忘假期。
+
+                    </p>
+
+                    <p>
+
+                        希望你們都享受這趟旅程，感恩這個金色記憶球有你的出現。
+
+                    </p>
+
+                    <p>
+
+                        這份指南希望能幫大家更輕鬆地規劃行程。<br class="hidden sm:inline">
+
+                        希望你們在這幾天吃得開心、玩得盡興，跟我們一起留下最美的回憶！
+
+                    </p>
+
+                </div>
+
+
+                <div class="mt-8 pt-6 border-t border-forest/10">
+
+                    <p class="font-serif text-xs tracking-[0.25em] uppercase text-sage mb-1">
+
+                        WITH LOVE,
+
+                    </p>
+
+                    <p class="font-script text-4xl sm:text-5xl text-forest">
+
+                        Tiffany &amp; Dennis
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================================
+
+         PAGE 7: WEDDING TIMELINE
+
+    ====================================================================== -->
+
+    <section id="timeline" class="py-12 sm:py-20 px-4 reveal">
+
+        <div class="max-w-3xl mx-auto">
+
+            <div class="text-center mb-12">
+
+                <p class="font-serif text-xs tracking-[0.25em] uppercase text-sage font-semibold mb-2">
+
+                    26 MARCH 2027 • SCHEDULE
+
+                </p>
+
+                <h2 class="font-script text-5xl sm:text-6xl text-forest">
+
+                    Wedding timeline
+
+                </h2>
+
+            </div>
+
+
+            <div class="relative pl-6 sm:pl-0">
+
+                <!-- Central Botanical Axis -->
+
+                <div class="absolute left-6 sm:left-1/2 top-2 bottom-2 w-[1.5px] bg-gradient-to-b from-sage/40 via-forest/40 to-sage/40 -translate-x-1/2"></div>
+
+
+                <div class="space-y-6 sm:space-y-8">
+
+                    <!-- 11:30 AM -->
+
+                    <div class="relative flex flex-col sm:flex-row items-start sm:items-center justify-between group">
+
+                        <div class="sm:w-[45%] sm:text-right pl-6 sm:pl-0 sm:pr-8">
+
+                            <span class="inline-block px-3.5 py-1 rounded-full bg-forest text-ivory font-serif text-sm tracking-wider font-semibold">
+
+                                11:30 AM
+
+                            </span>
+
+                        </div>
+
+                        <div class="absolute left-0 sm:left-1/2 w-4 h-4 rounded-full bg-ivory border-[3px] border-forest -translate-x-1/2 mt-1.5 sm:mt-0"></div>
+
+                        <div class="sm:w-[45%] pl-6 sm:pl-8 mt-2 sm:mt-0">
+
+                            <div class="bg-white/95 rounded-2xl p-4 sm:p-5 border border-forest/10 shadow-card">
+
+                                <h3 class="font-serif text-base sm:text-lg font-bold tracking-wider text-forest uppercase">
+
+                                    WELCOME &amp; GUEST ARRIVAL
+
+                                </h3>
+
+                                <p class="text-xs sm:text-sm text-sage mt-1">迎賓與賓客入場</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- 12:30 PM -->
+
+                    <div class="relative flex flex-col sm:flex-row-reverse items-start sm:items-center justify-between group">
+
+                        <div class="sm:w-[45%] sm:text-left pl-6 sm:pl-8">
+
+                            <span class="inline-block px-3.5 py-1 rounded-full bg-forest text-ivory font-serif text-sm tracking-wider font-semibold">
+
+                                12:30 PM
+
+                            </span>
+
+                        </div>
+
+                        <div class="absolute left-0 sm:left-1/2 w-4 h-4 rounded-full bg-ivory border-[3px] border-bronze -translate-x-1/2 mt-1.5 sm:mt-0"></div>
+
+                        <div class="sm:w-[45%] pl-6 sm:pl-0 sm:pr-8 sm:text-right mt-2 sm:mt-0">
+
+                            <div class="bg-white/95 rounded-2xl p-4 sm:p-5 border border-bronze/35 shadow-card">
+
+                                <h3 class="font-serif text-base sm:text-lg font-bold tracking-wider text-forest uppercase">
+
+                                    WEDDING CEREMONY
+
+                                </h3>
+
+                                <p class="text-xs sm:text-sm text-sage mt-1">森林教堂證婚儀式</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- 12:50 PM -->
+
+                    <div class="relative flex flex-col sm:flex-row items-start sm:items-center justify-between group">
+
+                        <div class="sm:w-[45%] sm:text-right pl-6 sm:pl-0 sm:pr-8">
+
+                            <span class="inline-block px-3.5 py-1 rounded-full bg-forest text-ivory font-serif text-sm tracking-wider font-semibold">
+
+                                12:50 PM
+
+                            </span>
+
+                        </div>
+
+                        <div class="absolute left-0 sm:left-1/2 w-4 h-4 rounded-full bg-ivory border-[3px] border-forest -translate-x-1/2 mt-1.5 sm:mt-0"></div>
+
+                        <div class="sm:w-[45%] pl-6 sm:pl-8 mt-2 sm:mt-0">
+
+                            <div class="bg-white/95 rounded-2xl p-4 sm:p-5 border border-forest/10 shadow-card">
+
+                                <h3 class="font-serif text-base sm:text-lg font-bold tracking-wider text-forest uppercase">
+
+                                    PHOTO TIME
+
+                                </h3>
+
+                                <p class="text-xs sm:text-sm text-sage mt-1">大合照與美好留影時刻</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- 1:15 PM -->
+
+                    <div class="relative flex flex-col sm:flex-row-reverse items-start sm:items-center justify-between group">
+
+                        <div class="sm:w-[45%] sm:text-left pl-6 sm:pl-8">
+
+                            <span class="inline-block px-3.5 py-1 rounded-full bg-sage text-ivory font-serif text-sm tracking-wider font-semibold">
+
+                                1:15 PM
+
+                            </span>
+
+                        </div>
+
+                        <div class="absolute left-0 sm:left-1/2 w-4 h-4 rounded-full bg-ivory border-[3px] border-sage -translate-x-1/2 mt-1.5 sm:mt-0"></div>
+
+                        <div class="sm:w-[45%] pl-6 sm:pl-0 sm:pr-8 sm:text-right mt-2 sm:mt-0">
+
+                            <div class="bg-white/95 rounded-2xl p-4 sm:p-5 border border-forest/10 shadow-card">
+
+                                <h3 class="font-serif text-base sm:text-lg font-bold tracking-wider text-forest uppercase">
+
+                                    FREE TIME TO EXPLORE KARUIZAWA
+
+                                </h3>
+
+                                <p class="text-xs sm:text-sm text-sage mt-1">輕井澤自由漫遊時間</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- 6:00 PM -->
+
+                    <div class="relative flex flex-col sm:flex-row items-start sm:items-center justify-between group">
+
+                        <div class="sm:w-[45%] sm:text-right pl-6 sm:pl-0 sm:pr-8">
+
+                            <span class="inline-block px-3.5 py-1 rounded-full bg-forest text-ivory font-serif text-sm tracking-wider font-semibold">
+
+                                6:00 PM
+
+                            </span>
+
+                        </div>
+
+                        <div class="absolute left-0 sm:left-1/2 w-4 h-4 rounded-full bg-ivory border-[3px] border-bronze -translate-x-1/2 mt-1.5 sm:mt-0"></div>
+
+                        <div class="sm:w-[45%] pl-6 sm:pl-8 mt-2 sm:mt-0">
+
+                            <div class="bg-white/95 rounded-2xl p-4 sm:p-5 border border-bronze/35 shadow-card">
+
+                                <h3 class="font-serif text-base sm:text-lg font-bold tracking-wider text-forest uppercase">
+
+                                    CELEBRATION DINNER
+
+                                </h3>
+
+                                <p class="text-xs sm:text-sm text-sage mt-1">慶祝晚宴</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================================
+
+         PAGE 8: TRANSPORTATION (教堂交通資訊)
+
+    ====================================================================== -->
+
+    <section id="transport" class="py-12 sm:py-20 px-4 reveal">
+
+        <div class="max-w-4xl mx-auto relative">
+
+            <!-- Botanical Green Hydrangea & Leaf Corner Accent SVG -->
+
+            <div class="hidden sm:block absolute -top-6 -right-4 w-36 h-36 text-sage/25 pointer-events-none">
+
+                <svg viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                    <path d="M140 20 C110 40 90 80 85 130" stroke="currentColor" stroke-width="1.5"/>
+
+                    <path d="M115 55 C135 50 150 65 142 82 C125 80 115 68 115 55 Z" fill="currentColor"/>
+
+                    <path d="M100 85 C80 78 65 92 72 108 C88 108 98 98 100 85 Z" fill="currentColor"/>
+
+                    <circle cx="122" cy="34" r="10" fill="currentColor" fill-opacity="0.6"/>
+
+                    <circle cx="136" cy="42" r="9" fill="currentColor" fill-opacity="0.5"/>
+
+                    <circle cx="110" cy="44" r="8" fill="currentColor" fill-opacity="0.7"/>
+
+                    <circle cx="126" cy="48" r="8" fill="currentColor" fill-opacity="0.4"/>
+
+                </svg>
+
+            </div>
+
+
+            <div class="text-center mb-10 sm:mb-12">
+
+                <p class="font-serif text-xs tracking-[0.25em] uppercase text-sage font-semibold mb-2">
+
+                    GETTING THERE
+
+                </p>
+
+                <h2 class="font-script text-5xl sm:text-6xl text-forest">
+
+                    Transportation
+
+                </h2>
+
+                <p class="text-sage font-medium text-base sm:text-lg mt-1">教堂交通資訊</p>
+
+            </div>
+
+
+            <!-- Chapel Primary Venue Card -->
+
+            <div class="bg-forest text-ivory rounded-3xl p-6 sm:p-8 shadow-botanical mb-6">
+
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-6">
+
+                    <div class="space-y-3">
+
+                        <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-ivory/90 text-xs tracking-wider uppercase font-semibold">
+
+                            Chapel Location &amp; Contact
+
+                        </span>
+
+                        <div>
+
+                            <p class="text-xs text-ivory/70 mb-0.5">教堂地址</p>
+
+                            <p class="text-base sm:text-lg font-medium tracking-wide">
+
+                                〒389-0111 長野県北佐久郡輕井澤町長倉20-123
+
+                            </p>
+
+                        </div>
+
+                        <div class="flex flex-wrap gap-x-6 gap-y-2 text-sm text-ivory/90 pt-1">
+
+                            <span>📞 聯絡電話：<a href="tel:+810120465280" class="underline hover:text-white">+81 0120-4652-80</a></span>
+
+                            <span>🅿️ 泊車安排：免費車位</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="flex flex-wrap sm:flex-nowrap md:flex-col gap-3 shrink-0">
+
+                        <button onclick="copyText('〒389-0111 長野県北佐久郡軽井沢町長倉20-123', '已複製教堂地址！')" class="flex-1 md:w-44 inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-white/15 hover:bg-white/25 active:scale-95 text-ivory text-sm font-medium transition-all border border-white/20">
+
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+
+                            複製地址
+
+                        </button>
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=〒389-0111+長野県北佐久郡軽井沢町長倉20-123" target="_blank" rel="noopener noreferrer" class="flex-1 md:w-44 inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-bronze hover:opacity-90 text-white text-sm font-medium transition-all shadow-md">
+
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+
+                            Google 地圖
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Transit Cards Grid -->
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                <!-- Local Transit to Chapel -->
+
+                <div class="bg-white/95 rounded-3xl p-6 sm:p-7 border border-forest/10 shadow-card">
+
+                    <h3 class="text-lg font-bold text-forest mb-4">交通方式</h3>
+
+                    <ul class="space-y-4 text-sm text-charcoal/90 leading-relaxed">
+
+                        <li class="flex items-start gap-3">
+
+                            <span class="px-2.5 py-0.5 rounded-md bg-sageLight text-forest font-semibold text-xs shrink-0 mt-0.5">自駕</span>
+
+                            <span>從新幹線輕井澤站南口開車 <strong>6 分鐘</strong> 到達教堂（附免費車位）。</span>
+
+                        </li>
+
+                        <li class="flex items-start gap-3">
+
+                            <span class="px-2.5 py-0.5 rounded-md bg-sageLight text-forest font-semibold text-xs shrink-0 mt-0.5">巴士</span>
+
+                            <span>可從輕井澤站北口搭乘巴士 — <strong>南輕井澤線（新城方向）</strong>到「南輕井澤路口站」，再步行約 <strong>15 分鐘</strong>。</span>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Hokuriku Shinkansen -->
+
+                <div class="bg-white/95 rounded-3xl p-6 sm:p-7 border border-forest/10 shadow-card">
+
+                    <h3 class="text-lg font-bold text-forest mb-4">北陸新幹線（東京市區/機場 → 輕井澤）</h3>
+
+                    <div class="space-y-3 text-sm text-charcoal/90 leading-relaxed">
+
+                        <p>
+
+                            從東京站搭乘北陸新幹線（<strong>Hakutaka / Asama</strong>），約 <strong>60–70 分鐘</strong> 即可直達輕井澤站。
+
+                        </p>
+
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-amber-50 border border-amber-200 text-amber-900 text-xs font-semibold">
+
+                            <span>🌙 22:18 尾班車</span>
+
+                        </div>
+
+                        <p class="text-xs sm:text-sm pt-2 border-t border-forest/10">
+
+                            <strong class="text-forest">交通票券推薦：</strong>提醒大家可以購買 <strong>JR Tokyo Wide Pass（JR東京廣域周遊券）</strong>，3天內無限次搭乘，划算又方便。
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Shuttle / Taxi Notes -->
+
+                <div class="md:col-span-2 bg-ivoryDark/80 rounded-3xl p-6 border border-forest/10">
+
+                    <h3 class="text-base font-bold text-forest mb-1.5">🚕 車站 → 飯店 / 婚禮場地（接駁車與計程車提示）</h3>
+
+                    <p class="text-sm text-charcoal/85 leading-relaxed">
+
+                        輕井澤站南口與北口皆設有計程車乘車處，建議提前下載日本叫車 App（如 <strong>GO</strong> 或 <strong>Uber</strong>）方便隨時叫車前往飯店及教堂；如當日有安排接駁車（Shuttle Bus），將於出發前另行公布集合時間與地點。
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================================
+
+         PAGE 9: WEATHER & DRESS CODE
+
+    ====================================================================== -->
+
+    <section id="dresscode" class="py-12 sm:py-20 px-4 reveal">
+
+        <div class="max-w-4xl mx-auto relative">
+
+            <!-- Calla Lily Botanical Accent SVG -->
+
+            <div class="hidden sm:block absolute -top-8 -left-6 w-32 h-40 text-sage/30 pointer-events-none">
+
+                <svg viewBox="0 0 120 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                    <path d="M55 150 C52 110 56 75 64 45" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+
+                    <path d="M64 48 C48 35 45 12 65 8 C82 12 80 38 64 48 Z" fill="currentColor" fill-opacity="0.35" stroke="currentColor" stroke-width="1.3"/>
+
+                    <path d="M64 38 V18" stroke="#9E8654" stroke-width="2" stroke-linecap="round"/>
+
+                    <path d="M53 125 C32 112 24 85 45 72 C55 88 56 108 53 125 Z" fill="currentColor" fill-opacity="0.5"/>
+
+                </svg>
+
+            </div>
+
+
+            <div class="text-center mb-10 sm:mb-12">
+
+                <p class="font-serif text-xs tracking-[0.25em] uppercase text-sage font-semibold mb-2">
+
+                    SEASONAL GUIDE &amp; ATTIRE
+
+                </p>
+
+                <h2 class="font-script text-5xl sm:text-6xl text-forest">
+
+                    Weather &amp; Dress code
+
+                </h2>
+
+            </div>
+
+
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-stretch">
+
+                <!-- Weather Advisory (7 cols) -->
+
+                <div class="md:col-span-7 bg-white/95 rounded-3xl p-6 sm:p-8 border border-forest/10 shadow-card">
+
+                    <div class="flex items-center justify-between gap-4 pb-5 mb-5 border-b border-forest/10">
+
+                        <div>
+
+                            <span class="text-xs uppercase tracking-widest text-sage font-semibold">March Weather</span>
+
+                            <h3 class="text-xl font-bold text-forest mt-0.5">3月的輕井澤依然偏冷</h3>
+
+                        </div>
+
+                        <div class="text-right bg-sageLight px-4 py-2 rounded-2xl">
+
+                            <span class="font-serif text-2xl font-bold text-forest">-3℃ 至 10℃</span>
+
+                            <p class="text-[11px] text-sage">有機會遇到殘雪或積雪</p>
+
+                        </div>
+
+                    </div>
+
+
+                    <h4 class="text-sm font-bold text-forest mb-3">穿搭與保暖提醒：</h4>
+
+                    <ul class="space-y-3 text-sm text-charcoal/90 leading-relaxed">
+
+                        <li class="flex items-start gap-2.5">
+
+                            <span class="w-1.5 h-1.5 rounded-full bg-forest mt-2 shrink-0"></span>
+
+                            <span>建議採用<strong>「洋蔥式穿法」</strong>：保暖外套（羽絨服 / 厚大衣）、圍巾、手套與發熱衣。</span>
+
+                        </li>
+
+                        <li class="flex items-start gap-2.5">
+
+                            <span class="w-1.5 h-1.5 rounded-full bg-forest mt-2 shrink-0"></span>
+
+                            <span>輕井澤地形多坡道或室外石子路，建議攜帶<strong>好走、防滑的平底鞋 / 靴子</strong>。</span>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Interactive Dress Code Swatches (5 cols) -->
+
+                <div class="md:col-span-5 bg-forest text-ivory rounded-3xl p-6 sm:p-8 shadow-botanical flex flex-col justify-between">
+
+                    <div>
+
+                        <p class="font-serif text-xs tracking-[0.22em] uppercase text-ivory/75 font-semibold">
+
+                            WEDDING PALETTE
+
+                        </p>
+
+                        <h3 class="font-serif text-2xl sm:text-3xl tracking-wide mt-2 leading-snug">
+
+                            DRESSCODE:<br>
+
+                            <span class="text-[#D4C3A3]">FOREST &amp; WOOD TONES</span>
+
+                        </h3>
+
+                        <p id="swatch-label" class="text-xs text-ivory/85 mt-3">
+
+                            點擊色票預覽色系名稱（森林綠、鼠尾草綠、暖灰褐、濃縮咖啡棕、奶油白）
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="mt-6 pt-5 border-t border-white/15">
+
+                        <div class="grid grid-cols-5 gap-2 text-center">
+
+                            <button type="button" onclick="selectSwatch('Deep Forest Green 森林深綠')" class="group focus:outline-none">
+
+                                <div class="w-11 h-11 mx-auto rounded-full bg-[#1A3626] border-2 border-white/80 shadow-md group-hover:scale-110 transition-transform"></div>
+
+                                <span class="block text-[10px] text-ivory/80 mt-1.5">Forest</span>
+
+                            </button>
+
+                            <button type="button" onclick="selectSwatch('Sage Green 鼠尾草綠')" class="group focus:outline-none">
+
+                                <div class="w-11 h-11 mx-auto rounded-full bg-[#68826E] border-2 border-white/80 shadow-md group-hover:scale-110 transition-transform"></div>
+
+                                <span class="block text-[10px] text-ivory/80 mt-1.5">Sage</span>
+
+                            </button>
+
+                            <button type="button" onclick="selectSwatch('Warm Taupe 暖灰褐')" class="group focus:outline-none">
+
+                                <div class="w-11 h-11 mx-auto rounded-full bg-[#9C8A76] border-2 border-white/80 shadow-md group-hover:scale-110 transition-transform"></div>
+
+                                <span class="block text-[10px] text-ivory/80 mt-1.5">Taupe</span>
+
+                            </button>
+
+                            <button type="button" onclick="selectSwatch('Espresso Brown 濃縮咖啡棕')" class="group focus:outline-none">
+
+                                <div class="w-11 h-11 mx-auto rounded-full bg-[#4A3728] border-2 border-white/80 shadow-md group-hover:scale-110 transition-transform"></div>
+
+                                <span class="block text-[10px] text-ivory/80 mt-1.5">Espresso</span>
+
+                            </button>
+
+                            <button type="button" onclick="selectSwatch('Cream Ivory 奶油象牙白')" class="group focus:outline-none">
+
+                                <div class="w-11 h-11 mx-auto rounded-full bg-[#FAF8F2] border-2 border-white/80 shadow-md group-hover:scale-110 transition-transform"></div>
+
+                                <span class="block text-[10px] text-ivory/80 mt-1.5">Cream</span>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================================
+
+         PAGES 10–11: EXPLORING KARUIZAWA
+
+    ====================================================================== -->
+
+    <section id="explore" class="py-12 sm:py-20 px-4 reveal">
+
+        <div class="max-w-5xl mx-auto">
+
+            <div class="text-center mb-8 sm:mb-10">
+
+                <p class="font-serif text-xs tracking-[0.25em] uppercase text-sage font-semibold mb-2">
+
+                    SIGHTSEEING &amp; ATTRACTIONS
+
+                </p>
+
+                <!-- Exploring Script Header + Vintage Suitcase SVG -->
+
+                <div class="inline-flex items-center justify-center gap-3">
+
+                    <h2 class="font-script text-5xl sm:text-6xl text-forest">
+
+                        Exploring
+
+                    </h2>
+
+                    <svg class="w-10 h-10 text-forest" viewBox="0 0 64 56" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+
+                        <rect x="8" y="16" width="48" height="34" rx="5"/>
+
+                        <path d="M24 16 V10 C24 8 26 6 28 6 H36 C38 6 40 8 40 10 V16"/>
+
+                        <path d="M18 16 V50 M46 16 V50"/>
+
+                        <path d="M8 24 C13 24 16 21 16 16 M56 24 C51 24 48 21 48 16 M8 42 C13 42 16 45 16 50 M56 42 C51 42 48 45 48 50"/>
+
+                        <rect x="27" y="25" width="9" height="9" transform="rotate(15 27 25)" stroke-width="1.4"/>
+
+                    </svg>
+
+                </div>
+
+
+                <!-- Highlight Note -->
+
+                <div class="mt-3">
+
+                    <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-sageLight text-forest text-sm font-medium">
+
+                        🚲 推薦大家踩單車遊輕井澤~!
+
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Interactive Category Filter -->
+
+            <div class="flex flex-wrap items-center justify-center gap-2 mb-8">
+
+                <button onclick="filterSpots('all', this)" class="filter-btn active px-4 py-2 rounded-full text-xs sm:text-sm font-medium bg-forest text-ivory transition-all shadow-sm">
+
+                    全部景點 (7)
+
+                </button>
+
+                <button onclick="filterSpots('nature', this)" class="filter-btn px-4 py-2 rounded-full text-xs sm:text-sm font-medium bg-white text-charcoal hover:bg-sageLight border border-forest/15 transition-all">
+
+                    自然景觀與神社
+
+                </button>
+
+                <button onclick="filterSpots('town', this)" class="filter-btn px-4 py-2 rounded-full text-xs sm:text-sm font-medium bg-white text-charcoal hover:bg-sageLight border border-forest/15 transition-all">
+
+                    小鎮、購物與溫泉
+
+                </button>
+
+            </div>
+
+
+            <!-- 7 Attractions Grid -->
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+
+                <!-- 1. 雲場池 -->
+
+                <article data-category="nature" class="spot-card bg-white/95 rounded-3xl p-6 border border-forest/10 shadow-card flex flex-col justify-between">
+
+                    <div>
+
+                        <span class="inline-block px-2.5 py-1 rounded-full bg-sageLight text-forest font-serif text-[11px] font-bold tracking-wider uppercase mb-3">
+
+                            NATURE LAKE
+
+                        </span>
+
+                        <h3 class="text-xl font-bold text-forest mb-2">雲場池</h3>
+
+                        <p class="text-sm text-charcoal/85 leading-relaxed">
+
+                            靜謐如鏡的「天鵝湖」，倒映四季樹影。漫步湖畔林蔭道，感受輕井澤獨有的清幽浪漫。
+
+                        </p>
+
+                    </div>
+
+                    <div class="mt-5 pt-4 border-t border-forest/10 flex justify-end">
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=雲場池+輕井澤" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-forest hover:text-bronze transition-colors">
+
+                            Google 地圖 →
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 2. 白絲瀑布 -->
+
+                <article data-category="nature" class="spot-card bg-white/95 rounded-3xl p-6 border border-forest/10 shadow-card flex flex-col justify-between">
+
+                    <div>
+
+                        <span class="inline-block px-2.5 py-1 rounded-full bg-sageLight text-forest font-serif text-[11px] font-bold tracking-wider uppercase mb-3">
+
+                            FOREST WATERFALL
+
+                        </span>
+
+                        <h3 class="text-xl font-bold text-forest mb-2">白絲瀑布</h3>
+
+                        <p class="text-sm text-charcoal/85 leading-relaxed">
+
+                            數千條如白絲般的細流從岩壁傾瀉，沉浸於滿滿芬多精與清爽水霧中，身心無比療癒。
+
+                        </p>
+
+                    </div>
+
+                    <div class="mt-5 pt-4 border-t border-forest/10 flex justify-end">
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=白糸の滝+軽井沢" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-forest hover:text-bronze transition-colors">
+
+                            Google 地圖 →
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 3. 熊野皇大神社 -->
+
+                <article data-category="nature" class="spot-card bg-white/95 rounded-3xl p-6 border border-forest/10 shadow-card flex flex-col justify-between">
+
+                    <div>
+
+                        <span class="inline-block px-2.5 py-1 rounded-full bg-sageLight text-forest font-serif text-[11px] font-bold tracking-wider uppercase mb-3">
+
+                            HISTORIC SHRINE
+
+                        </span>
+
+                        <h3 class="text-xl font-bold text-forest mb-2">熊野皇大神社</h3>
+
+                        <p class="text-sm text-charcoal/85 leading-relaxed">
+
+                            跨越縣界的古老神社，擁有八百年神木。在古木森林中漫步參拜，體會神聖靈氣。
+
+                        </p>
+
+                    </div>
+
+                    <div class="mt-5 pt-4 border-t border-forest/10 flex justify-end">
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=熊野皇大神社+軽井沢" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-forest hover:text-bronze transition-colors">
+
+                            Google 地圖 →
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 4. 榆樹街小鎮 -->
+
+                <article data-category="town" class="spot-card bg-white/95 rounded-3xl p-6 border border-forest/10 shadow-card flex flex-col justify-between">
+
+                    <div>
+
+                        <span class="inline-block px-2.5 py-1 rounded-full bg-amber-50 text-espresso font-serif text-[11px] font-bold tracking-wider uppercase mb-3">
+
+                            WOODEN TERRACE
+
+                        </span>
+
+                        <h3 class="text-xl font-bold text-forest mb-2">榆樹街小鎮</h3>
+
+                        <p class="text-sm text-charcoal/85 leading-relaxed">
+
+                            建於溪谷榆樹林間的木台小鎮，匯聚特色咖啡館與質感小店，完美融入大自然。
+
+                        </p>
+
+                    </div>
+
+                    <div class="mt-5 pt-4 border-t border-forest/10 flex justify-end">
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=ハルニレテラス+軽井沢" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-forest hover:text-bronze transition-colors">
+
+                            Google 地圖 →
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 5. 舊輕井澤銀座通 -->
+
+                <article data-category="town" class="spot-card bg-white/95 rounded-3xl p-6 border border-forest/10 shadow-card flex flex-col justify-between">
+
+                    <div>
+
+                        <span class="inline-block px-2.5 py-1 rounded-full bg-amber-50 text-espresso font-serif text-[11px] font-bold tracking-wider uppercase mb-3">
+
+                            RETRO STREET
+
+                        </span>
+
+                        <h3 class="text-xl font-bold text-forest mb-2">舊輕井澤銀座通</h3>
+
+                        <p class="text-sm text-charcoal/85 leading-relaxed">
+
+                            充滿歐陸復古風情的商店街！沿途有手工果醬、精緻雜貨與在地小吃，非常適合隨意散步。
+
+                        </p>
+
+                    </div>
+
+                    <div class="mt-5 pt-4 border-t border-forest/10 flex justify-end">
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=旧軽井沢銀座通り" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-forest hover:text-bronze transition-colors">
+
+                            Google 地圖 →
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 6. 王子購物廣場 -->
+
+                <article data-category="town" class="spot-card bg-white/95 rounded-3xl p-6 border border-forest/10 shadow-card flex flex-col justify-between">
+
+                    <div>
+
+                        <span class="inline-block px-2.5 py-1 rounded-full bg-amber-50 text-espresso font-serif text-[11px] font-bold tracking-wider uppercase mb-3">
+
+                            SHOPPING OUTLET
+
+                        </span>
+
+                        <h3 class="text-xl font-bold text-forest mb-2">王子購物廣場</h3>
+
+                        <p class="text-sm text-charcoal/85 leading-relaxed">
+
+                            日本頂級大型 Outlet，坐擁廣闊綠地池塘，匯聚國際名牌與選品，購物景致兼備。
+
+                        </p>
+
+                    </div>
+
+                    <div class="mt-5 pt-4 border-t border-forest/10 flex justify-end">
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=軽井沢プリンスショッピングプラザ" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-forest hover:text-bronze transition-colors">
+
+                            Google 地圖 →
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 7. 草津溫泉(近郊) -->
+
+                <article data-category="town" class="spot-card sm:col-span-2 lg:col-span-3 bg-white/95 rounded-3xl p-6 border border-forest/10 shadow-card flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+
+                    <div>
+
+                        <span class="inline-block px-2.5 py-1 rounded-full bg-amber-50 text-espresso font-serif text-[11px] font-bold tracking-wider uppercase mb-2">
+
+                            HOT SPRINGS
+
+                        </span>
+
+                        <h3 class="text-xl font-bold text-forest mb-1">草津溫泉(近郊)</h3>
+
+                        <p class="text-sm text-charcoal/85 leading-relaxed">
+
+                            日本三大名泉之一，距輕井澤約一小時車程。熱氣騰騰的湯畑與溫泉街極具特色。
+
+                        </p>
+
+                    </div>
+
+                    <div class="shrink-0">
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=草津温泉+湯畑" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-sageLight hover:bg-forest hover:text-ivory text-forest text-xs font-semibold transition-colors">
+
+                            開啟 Google 地圖 →
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================================
+
+         PAGE 12: RESTAURANT RECOMMENDATIONS
+
+    ====================================================================== -->
+
+    <section id="dining" class="py-12 sm:py-20 px-4 reveal">
+
+        <div class="max-w-4xl mx-auto relative">
+
+            <!-- Floral Watercolor-style Border SVG Accent -->
+
+            <div class="hidden sm:block absolute -top-6 -right-4 w-32 h-32 text-sage/25 pointer-events-none">
+
+                <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                    <circle cx="80" cy="40" r="18" fill="currentColor" fill-opacity="0.35"/>
+
+                    <circle cx="80" cy="40" r="5" fill="#9E8654"/>
+
+                    <circle cx="52" cy="58" r="12" fill="currentColor" fill-opacity="0.45"/>
+
+                    <path d="M80 58 C75 80 65 98 50 110" stroke="currentColor" stroke-width="1.5"/>
+
+                </svg>
+
+            </div>
+
+
+            <div class="text-center mb-10 sm:mb-12">
+
+                <p class="font-serif text-xs tracking-[0.25em] uppercase text-sage font-semibold mb-2">
+
+                    CULINARY SELECTIONS
+
+                </p>
+
+                <h2 class="font-script text-5xl sm:text-6xl text-forest">
+
+                    Restaurant recommendations
+
+                </h2>
+
+                <p class="text-sage font-medium text-sm sm:text-base mt-2">
+
+                    美味尋蹤・Tabelog 嚴選美饌（3.4★+）
+
+                </p>
+
+            </div>
+
+
+            <div class="space-y-4 sm:space-y-5">
+
+                <!-- 1. 川上庵 (舊輕井澤) -->
+
+                <div class="bg-white/95 rounded-3xl p-6 sm:p-7 border border-forest/10 shadow-card">
+
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+
+                        <div class="flex items-center gap-3">
+
+                            <span class="w-8 h-8 rounded-full bg-forest text-ivory font-serif text-sm font-bold flex items-center justify-center shrink-0">1</span>
+
+                            <h3 class="text-lg sm:text-xl font-bold text-forest">川上庵 (舊輕井澤)</h3>
+
+                        </div>
+
+                        <div class="flex items-center gap-2 pl-11 sm:pl-0">
+
+                            <span class="px-3 py-1 rounded-full bg-amber-50 border border-amber-200 text-amber-800 text-xs font-bold">★ 3.70/5</span>
+
+                            <span class="px-3 py-1 rounded-full bg-sageLight text-forest text-xs font-medium">蕎麥麵名店</span>
+
+                        </div>
+
+                    </div>
+
+                    <p class="text-sm text-charcoal/85 leading-relaxed sm:pl-11">
+
+                        超高人氣自家製信州蕎麥麵。麵條香氣濃郁、口感彈牙，配搭招牌酥脆炸大蝦天婦羅，風味極佳。
+
+                    </p>
+
+                    <div class="mt-3 sm:pl-11 flex justify-end">
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=軽井沢+川上庵+本店" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-sage hover:text-forest">Google 地圖 →</a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- 2. 澤村麵包 SAWAMURA -->
+
+                <div class="bg-white/95 rounded-3xl p-6 sm:p-7 border border-forest/10 shadow-card">
+
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+
+                        <div class="flex items-center gap-3">
+
+                            <span class="w-8 h-8 rounded-full bg-forest text-ivory font-serif text-sm font-bold flex items-center justify-center shrink-0">2</span>
+
+                            <h3 class="text-lg sm:text-xl font-bold text-forest">澤村麵包 SAWAMURA</h3>
+
+                        </div>
+
+                        <div class="flex items-center gap-2 pl-11 sm:pl-0">
+
+                            <span class="px-3 py-1 rounded-full bg-amber-50 border border-amber-200 text-amber-800 text-xs font-bold">★ 3.60/5</span>
+
+                            <span class="px-3 py-1 rounded-full bg-sageLight text-forest text-xs font-medium">烘焙餐廳</span>
+
+                        </div>
+
+                    </div>
+
+                    <p class="text-sm text-charcoal/85 leading-relaxed sm:pl-11">
+
+                        位於榆樹街小鎮。每日新鮮出爐天然酵母麵包，適合在陽光透射的露天木台，享受精緻早餐或下午茶。
+
+                    </p>
+
+                    <div class="mt-3 sm:pl-11 flex justify-end">
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=ベーカリー＆レストラン+沢村+軽井沢ハルニレテラス" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-sage hover:text-forest">Google 地圖 →</a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- 3. 酢重正之 -->
+
+                <div class="bg-white/95 rounded-3xl p-6 sm:p-7 border border-forest/10 shadow-card">
+
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+
+                        <div class="flex items-center gap-3">
+
+                            <span class="w-8 h-8 rounded-full bg-forest text-ivory font-serif text-sm font-bold flex items-center justify-center shrink-0">3</span>
+
+                            <h3 class="text-lg sm:text-xl font-bold text-forest">酢重正之</h3>
+
+                        </div>
+
+                        <div class="flex items-center gap-2 pl-11 sm:pl-0">
+
+                            <span class="px-3 py-1 rounded-full bg-amber-50 border border-amber-200 text-amber-800 text-xs font-bold">★ 3.50/5</span>
+
+                            <span class="px-3 py-1 rounded-full bg-sageLight text-forest text-xs font-medium">信州和食</span>
+
+                        </div>
+
+                    </div>
+
+                    <p class="text-sm text-charcoal/85 leading-relaxed sm:pl-11">
+
+                        傳統日式木造質感餐廳，主打特製信州味噌與銅鍋炊煮米飯，展現在地樸實食材的極致美妙。
+
+                    </p>
+
+                    <div class="mt-3 sm:pl-11 flex justify-end">
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=川上庵+酢重正之+軽井沢" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-sage hover:text-forest">Google 地圖 →</a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- 4. 丸山咖啡(本店) -->
+
+                <div class="bg-white/95 rounded-3xl p-6 sm:p-7 border border-forest/10 shadow-card">
+
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+
+                        <div class="flex items-center gap-3">
+
+                            <span class="w-8 h-8 rounded-full bg-forest text-ivory font-serif text-sm font-bold flex items-center justify-center shrink-0">4</span>
+
+                            <h3 class="text-lg sm:text-xl font-bold text-forest">丸山咖啡(本店)</h3>
+
+                        </div>
+
+                        <div class="flex items-center gap-2 pl-11 sm:pl-0">
+
+                            <span class="px-3 py-1 rounded-full bg-amber-50 border border-amber-200 text-amber-800 text-xs font-bold">★ 3.65/5</span>
+
+                            <span class="px-3 py-1 rounded-full bg-sageLight text-forest text-xs font-medium">精品咖啡發源地</span>
+
+                        </div>
+
+                    </div>
+
+                    <p class="text-sm text-charcoal/85 leading-relaxed sm:pl-11">
+
+                        日本頂級單品咖啡名店！隱身於幽靜森林中，提供法壓壺沖煮的頂級單品豆，氛圍優雅深沉。
+
+                    </p>
+
+                    <div class="mt-3 sm:pl-11 flex justify-end">
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=丸山珈琲+軽井沢本店" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-sage hover:text-forest">Google 地圖 →</a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- 5. MODESTO 意式料理 -->
+
+                <div class="bg-white/95 rounded-3xl p-6 sm:p-7 border border-forest/10 shadow-card">
+
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+
+                        <div class="flex items-center gap-3">
+
+                            <span class="w-8 h-8 rounded-full bg-forest text-ivory font-serif text-sm font-bold flex items-center justify-center shrink-0">5</span>
+
+                            <h3 class="text-lg sm:text-xl font-bold text-forest">MODESTO 意式料理</h3>
+
+                        </div>
+
+                        <div class="flex items-center gap-2 pl-11 sm:pl-0">
+
+                            <span class="px-3 py-1 rounded-full bg-amber-50 border border-amber-200 text-amber-800 text-xs font-bold">★ 3.55/5</span>
+
+                            <span class="px-3 py-1 rounded-full bg-sageLight text-forest text-xs font-medium">森林意法料理</span>
+
+                        </div>
+
+                    </div>
+
+                    <p class="text-sm text-charcoal/85 leading-relaxed sm:pl-11">
+
+                        嚴選信州在地農家新鮮蔬菜與食材，在被大自然包圍的木造空間裡，品嚐精緻優雅的義大利美饌。
+
+                    </p>
+
+                    <div class="mt-3 sm:pl-11 flex justify-end">
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=MODESTO+軽井沢" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-sage hover:text-forest">Google 地圖 →</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================================
+
+         PAGE 13: CLOSING FINALE CARD
+
+    ====================================================================== -->
+
+    <footer class="py-14 sm:py-20 px-4 reveal">
+
+        <div class="max-w-xl mx-auto bg-white/90 rounded-[2.25rem] p-8 sm:p-10 border border-forest/15 shadow-botanical text-center">
+
+            <!-- Optional Couple Cherry Blossom Photo Frame / Uploader -->
+
+            <div class="relative w-full aspect-[4/3] rounded-2xl bg-gradient-to-b from-[#F7ECEC] via-[#FAF5F2] to-[#E8EFE9] border border-forest/10 overflow-hidden mb-7 flex flex-col items-center justify-center p-6">
+
+                <img id="couple-photo" src="" alt="Tiffany & Dennis" class="hidden absolute inset-0 w-full h-full object-cover">
+
+               
+
+                <!-- Delicate Cherry Blossom Botanical Illustration Placeholder -->
+
+                <div id="photo-placeholder" class="text-center">
+
+                    <svg class="w-16 h-16 mx-auto text-sage/60 mb-3" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.3">
+
+                        <path d="M32 14 C36 22 44 22 48 28 C42 34 44 42 38 46 C32 42 26 46 20 42 C22 34 16 30 20 22 C26 22 28 18 32 14 Z" fill="currentColor" fill-opacity="0.12"/>
+
+                        <circle cx="32" cy="31" r="3" fill="currentColor"/>
+
+                    </svg>
+
+                    <p class="font-script text-4xl sm:text-5xl text-forest">Tiffany &amp; Dennis</p>
+
+                    <p class="text-xs text-sage mt-1">26.03.27 • Karuizawa</p>
+
+                    <label for="photo-upload" class="mt-4 inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-white/90 hover:bg-forest hover:text-ivory text-forest text-xs font-medium border border-forest/15 cursor-pointer transition-colors shadow-sm">
+
+                        <span>+ 放入你們的櫻花婚紗照（預覽）</span>
+
+                    </label>
+
+                    <input id="photo-upload" type="file" accept="image/*" class="hidden" onchange="previewPhoto(event)">
+
+                </div>
+
+            </div>
+
+
+            <p class="font-script text-4xl sm:text-5xl text-forest">
+
+                Tiffany &amp; Dennis
+
+            </p>
+
+            <p class="font-serif text-xs sm:text-sm tracking-[0.24em] uppercase text-sage mt-1 mb-6">
+
+                26.03.27 • Karuizawa, Japan
+
+            </p>
+
+
+            <a href="#cover" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-ivory hover:bg-forest hover:text-ivory text-forest text-xs font-semibold tracking-wider uppercase border border-forest/15 transition-all">
+
+                ↑ Back to Cover
+
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Interactive Scripts -->
+
+    <script>
+
+        // Copy to clipboard with fallback
+
+        function copyText(text, successMsg) {
+
+            const textArea = document.createElement('textarea');
+
+            textArea.value = text;
+
+            textArea.style.position = 'fixed';
+
+            textArea.style.left = '-9999px';
+
+            document.body.appendChild(textArea);
+
+            textArea.select();
+
+            try {
+
+                document.execCommand('copy');
+
+                showToast(successMsg || '已複製！');
+
+            } catch (err) {
+
+                showToast('請手動選取複製');
+
+            }
+
+            document.body.removeChild(textArea);
+
+        }
+
+
+        function showToast(message) {
+
+            const toast = document.getElementById('toast');
+
+            const toastMsg = document.getElementById('toast-message');
+
+            toastMsg.textContent = message;
+
+            toast.classList.remove('opacity-0', 'translate-y-4');
+
+            toast.classList.add('opacity-100', 'translate-y-0');
+
+
+            clearTimeout(window.toastTimer);
+
+            window.toastTimer = setTimeout(() => {
+
+                toast.classList.remove('opacity-100', 'translate-y-0');
+
+                toast.classList.add('opacity-0', 'translate-y-4');
+
+            }, 2500);
+
+        }
+
+
+        // Interactive Dress Code Swatch Label
+
+        function selectSwatch(labelText) {
+
+            const label = document.getElementById('swatch-label');
+
+            if (label) {
+
+                label.textContent = '推薦色系：' + labelText;
+
+            }
+
+        }
+
+
+        // Filter Exploring Spots
+
+        function filterSpots(category, btn) {
+
+            document.querySelectorAll('.filter-btn').forEach(b => {
+
+                b.classList.remove('bg-forest', 'text-ivory', 'shadow-sm');
+
+                b.classList.add('bg-white', 'text-charcoal', 'border', 'border-forest/15');
+
+            });
+
+            btn.classList.remove('bg-white', 'text-charcoal', 'border', 'border-forest/15');
+
+            btn.classList.add('bg-forest', 'text-ivory', 'shadow-sm');
+
+
+            document.querySelectorAll('.spot-card').forEach(card => {
+
+                if (category === 'all' || card.dataset.category === category) {
+
+                    card.style.display = 'flex';
+
+                } else {
+
+                    card.style.display = 'none';
+
+                }
+
+            });
+
+        }
+
+
+        // Optional local photo preview for Closing Finale card
+
+        function previewPhoto(event) {
+
+            const file = event.target.files[0];
+
+            if (!file) return;
+
+            const reader = new FileReader();
+
+            reader.onload = function(e) {
+
+                const img = document.getElementById('couple-photo');
+
+                const placeholder = document.getElementById('photo-placeholder');
+
+                img.src = e.target.result;
+
+                img.classList.remove('hidden');
+
+                placeholder.classList.add('hidden');
+
+            };
+
+            reader.readAsDataURL(file);
+
+        }
+
+
+        // Cover image fallback if opened locally without the JPG in the same folder
+
+        function handleCoverError(imgEl) {
+
+            imgEl.classList.add('hidden');
+
+            const fallback = document.getElementById('cover-fallback-panel');
+
+            if (fallback) fallback.classList.remove('hidden');
+
+        }
+
+
+        function loadLocalCover(event) {
+
+            const file = event.target.files[0];
+
+            if (!file) return;
+
+            const reader = new FileReader();
+
+            reader.onload = function(e) {
+
+                const img = document.getElementById('original-cover-img');
+
+                const fallback = document.getElementById('cover-fallback-panel');
+
+                img.src = e.target.result;
+
+                img.classList.remove('hidden');
+
+                if (fallback) fallback.classList.add('hidden');
+
+            };
+
+            reader.readAsDataURL(file);
+
+        }
+
+
+        // Scroll Reveal Animation
+
+        document.addEventListener('DOMContentLoaded', () => {
+
+            const observer = new IntersectionObserver((entries) => {
+
+                entries.forEach(entry => {
+
+                    if (entry.isIntersecting) {
+
+                        entry.target.classList.add('active');
+
+                    }
+
+                });
+
+            }, { threshold: 0.08 });
+
+
+            document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        });
+
+    </script>
+
+</body>
+
+</html>
